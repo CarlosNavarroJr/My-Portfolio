@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <section>
+        <section id="home">
             <p>Hello, I'm </p>
             <h1>Carlos Navarro Jr</h1>
 
@@ -9,7 +9,7 @@ function Hero() {
             <p>
                 I'm building my career around cloud engineering, cybersecurity and modern web technologies.
             </p>
-            <button>View My Projects</button>
+            <button><a href="#projects">View My Projects</a></button>
         </section>
     );
 }
