@@ -1,14 +1,27 @@
 function About() {
     return(
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="about" className="about">
+            <div className="section-container">
+                <p className="section-eyebrow">
+                    A little about me
+                </p>
 
-            <p>I'm an aspiring cloud and cybersecurity professional focused on building practical   skills with AWS, Python, Linux, Networking and modern web technologies.
-            </p>
+                <h2>About Me</h2>
 
-            <p>
-                I'm currently building hands on projects to develop my experince in cloud administration, cybersecurity, automation and software development.
-            </p>
+                <div className="about-content">
+                    <p>
+                        I'm building practical skills across cloud infrastructure, cybersecurity, automation and software development.
+                    </p>
+
+                    <p>
+                        My approach is to learn by building real projects, testing configuration, solving problems and documenting what I learn along the way.
+                    </p>
+
+                    <p>
+                        My goal is to develop the technical foundation needed to design, secure and maintain reliable systems.
+                    </p>
+                </div>
+            </div>
         </section>
     );
 }
