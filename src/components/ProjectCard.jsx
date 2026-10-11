@@ -1,21 +1,47 @@
-function ProjectCard({ title, description, technologies, github }) {
+function ProjectCard({ project }) {
     return (
-        <article>
-            <h3>{title}</h3>
+        <article className="project-card">
+            <div className="project-card-content">
+                <p className="project-status">
+                    {project.status}
+                </p>
 
-            <p>{description}</p>
+                <h3>{project.title}</h3>
 
-            <div>
-                {technologies.map((technology) => (
-                    <span key={technology}>
-                        {technology}
-                    </span>
-                ))}
+                <p className="preject-description">
+                    {ProjectCard.description}
+                </p>
+
+                <div className="project-tech">
+                    {project.technologies.map((technology) =>(
+                        <span className="tech-tag" key={technology}>
+                            {technology}
+                        </span>
+                    ))}
+                </div>
+
+                <div className="project-links">
+                    {project.githubUrl && (
+                        <a
+                        href={project.githubUrl}
+                        target="blank"
+                        rel="noreferrer"
+                        >
+                            View Code
+                        </a>
+                    )}
+
+                    {project.liveUrl && (
+                        <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                            Live Demo
+                        </a>
+                    )}
+                </div>
             </div>
-
-            <a href={github} target="_blank" rel="noreferrer">
-                View on Github
-            </a>
         </article>
     );
 }

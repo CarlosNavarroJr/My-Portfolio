@@ -3,39 +3,52 @@ import ProjectCard from "./ProjectCard";
 const projects = [
     {
         title: "Password Strenght Checker",
+        status: "Completed",
         description: "A python security tool that evaluates password strength based on length, character types, and common security considerations.",
-        technologies: ["Python"],
-        github: "https://github.com"
+        technologies: ["Python", "String Methods"],
+        githubUrl: "",
+        liveUrl: "",
     },
       {
         title: "Password Strenght Checker",
+        status: "Completed",
         description: "A python security tool that evaluates password strength based on length, character types, and common security considerations.",
         technologies: ["Python"],
-        github: "https://github.com"
+        githubUrl: "",
+        liveUrl: "",
     },
       {
         title: "Password Strenght Checker",
+        status: "Completed",
         description: "A python security tool that evaluates password strength based on length, character types, and common security considerations.",
         technologies: ["Python"],
-        github: "https://github.com"
+        githubUrl: "",
+        liveUrl: "",
     },
 ];
 
 function Projects() {
     return (
-        <section id="projects">
-            <h2>Projects</h2>
+        <section id="projects" className="projects">
+            <div className="section-container">
+                <p className="section-eyebrow">
+                    What I'm building
+                </p>
 
-            <div>
-                {projects.map((project) => (
-                    <ProjectCard 
+                <h2>Projects</h2>
+
+                <p className="section-description">
+                    Hands-on projects that demonstrate my learning, problem-solving, and technical skills.
+                </p>
+
+                <div className="projects-grid">
+                    {projects.map((project) => (
+                        <ProjectCard 
                         key={project.title}
-                        title={project.title}
-                        description={project.description}
-                        technologies={project.technologies}
-                        github={project.github}
-                    />
-                ))}
+                        project={project}
+                        />
+                    ))}
+                </div>
             </div>
         </section>
     );
