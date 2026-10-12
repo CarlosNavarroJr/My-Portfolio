@@ -1,37 +1,42 @@
 function Contact() {
 
     return (
-        <section id="contact">
-            <h2>Contact</h2>
+        <section id="contact" className="contact">
+            <div className="section-container" contact-container>
+                <p className="section-eyebrow">Get in touch</p>
 
-            <p>
-                I'm currently looking for opportunities to grow my skills in cloud engineering, cybersecurity and software develoment.
-            </p>
+                <h2>Let's Connect</h2>
 
-            <p>
-                If you'd like to connect, feel free to reach out.
-            </p>
+                <p className="contact-description">
+                    I'm interested in opportunities to learn, contribute and grow in cloud engineering, IT and cybersecurity. If you'd like to discuss my projects or a potential opportunity, feel free to reach out.
+                </p>
 
-            <div>
-                <a href="mailto:your-email@example.com">
-                    Email Me
-                </a>
+                <div className="contact-links">
+                    <a 
+                    className="contact-link contact-link-primary"
+                    href="mailto:your-email@example.com"
+                    >
+                        Email Me
+                    </a>
 
-                <a
-                href="https://github.com"
-                target="_blank"
-                rel="noreferrer"
-                >
-                    GitHub
-                </a>
+                    <a 
+                    className="contact-link"
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
 
-                <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noreferrer"
-                >
-                    LinkedIn
-                </a>
+                    <a
+                    className="contact-link"
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+                </div>
             </div>
         </section>
     );
