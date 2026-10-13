@@ -21,7 +21,7 @@ function Contact() {
 
                     <a 
                     className="contact-link"
-                    href="https://github.com"
+                    href="https://github.com/CarlosNavarroJr"
                     target="_blank"
                     rel="noreferrer"
                     >
@@ -30,7 +30,7 @@ function Contact() {
 
                     <a
                     className="contact-link"
-                    href="https://www.linkedin.com"
+                    href="https://www.linkedin.com/in/carlos-navarro-jr/"
                     target="_blank"
                     rel="noreferrer"
                     >

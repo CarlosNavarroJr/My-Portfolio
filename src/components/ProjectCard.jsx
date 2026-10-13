@@ -8,8 +8,8 @@ function ProjectCard({ project }) {
 
                 <h3>{project.title}</h3>
 
-                <p className="preject-description">
-                    {ProjectCard.description}
+                <p className="project-description">
+                    {project.description}
                 </p>
 
                 <div className="project-tech">

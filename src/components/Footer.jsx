@@ -10,7 +10,7 @@ function Footer() {
                 <a href="#home">Back to Top</a>
 
                 <a
-                href="https://www.linkedin.com"
+                href="https://github.com/CarlosNavarroJr"
                 target="_blank"
                 rel="noreferrer"
                 >
@@ -18,7 +18,7 @@ function Footer() {
                 </a>
 
                 <a
-                href="https://www.linkedin.com/in/YOUR_USERNAME"
+                href="https://www.linkedin.com/in/carlos-navarro-jr/"
                 target="_blank"
                 rel="noreferrer"
                 >
