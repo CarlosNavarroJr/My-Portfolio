@@ -8,13 +8,13 @@ function Contact() {
                 <h2>Let's Connect</h2>
 
                 <p className="contact-description">
-                    I'm interested in opportunities to learn, contribute and grow in cloud engineering, IT and cybersecurity. If you'd like to discuss my projects or a potential opportunity, feel free to reach out.
+                    I'm interested in opportunities to learn, contribute and grow in sofware development, IT and cybersecurity. If you'd like to discuss my projects or a potential opportunity, feel free to reach out.
                 </p>
 
                 <div className="contact-links">
                     <a 
                     className="contact-link contact-link-primary"
-                    href="mailto:your-email@example.com"
+                    href="mailto:navarro89cnp@gmail.com"
                     >
                         Email Me
                     </a>

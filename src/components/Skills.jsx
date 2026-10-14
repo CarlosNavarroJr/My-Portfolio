@@ -1,13 +1,20 @@
 const skills = [
     { name: "Full-Stack Developer", category:"Software Development"},
-    { name: "AWS", category:"Cloud Computing"},
-    { name: "Python", category:"Programming"},
     { name: "React", category:"Frontend Development"},
+    { name: "Vue", category:"Frontend Development"},
+    { name: "RESTful API's", category:"Backend Development"},
+    { name: "Node.js", category:"Backend Development"},
+    { name: "Python", category:"Programming"},
+    { name: "MySQL", category:"Database Management"},
+    { name: "PostgreSQL", category:"Database Management"},
     { name: "Linux", category:"Operating Systems"},
     { name: "Git & GitHub", category:"Version Control"},
     { name: "Javascript", category:"Programming"},
-    { name: "HTML & CSS", category:"Web Development"},
+    { name: "HTML5 & CSS3", category:"Web Development"},
+    { name: "AWS", category:"Cloud Computing"},
     { name: "Networking", category:"IT Fundamentals"},
+    { name: "Debugging", category:"Troubleshooting"},
+    { name: "Documentation", category:"Document Control"},
 ];
 
 function Skills() {

@@ -3,14 +3,14 @@ function About() {
         <section id="about" className="about">
             <div className="section-container">
                 <p className="section-eyebrow">
-                    A little about me
+                    A little
                 </p>
 
                 <h2>About Me</h2>
 
                 <div className="about-content">
                     <p>
-                        I'm building practical skills across cloud infrastructure, cybersecurity, automation and software development.
+                        I'm building practical skills across software development, cybersecurity and cloud infrastructure.
                     </p>
 
                     <p>
