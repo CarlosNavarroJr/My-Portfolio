@@ -1,57 +1,56 @@
 import ProjectCard from "./ProjectCard";
+import ticketingImage from "../assets/projects/supportDesk.png";
 
 const projects = [
-    {
-        title: "Project Coming Soon",
-        status: "In Progress",
-        description: "Project in progress, stay tunned",
-        technologies: ["React"],
-        githubUrl: "",
-        liveUrl: "",
-    },
-      {
-        title: "Project Coming Soon",
-        status: "In Progress",
-        description: "Project in progress, stay tunned",
-        technologies: ["React"],
-        githubUrl: "",
-        liveUrl: "",
-    },
-      {
-        title: "Project Coming Soon",
-        status: "In Progress",
-        description: "Project in progress, stay tunned",
-        technologies: ["React"],
-        githubUrl: "",
-        liveUrl: "",
-    },
+  {
+    title: "IT Ticketing System",
+    status: "In Progress",
+    description:
+      "A web application designed to create, track, and manage IT support tickets through an organized, user-friendly interface.",
+    technologies: ["React", "Javascript", "CSS"],
+    githubUrl: "",
+    liveUrl: "",
+    image: ticketingImage,
+  },
+  {
+    title: "Project Coming Soon",
+    status: "In Progress",
+    description: "Project in progress, stay tunned",
+    technologies: ["React"],
+    githubUrl: "",
+    liveUrl: "",
+  },
+  {
+    title: "Project Coming Soon",
+    status: "In Progress",
+    description: "Project in progress, stay tunned",
+    technologies: ["React"],
+    githubUrl: "",
+    liveUrl: "",
+  },
 ];
 
 function Projects() {
-    return (
-        <section id="projects" className="projects">
-            <div className="section-container">
-                <p className="section-eyebrow">
-                    What I'm building
-                </p>
+  return (
+    <section id="projects" className="projects">
+      <div className="section-container">
+        <p className="section-eyebrow">What I'm building</p>
 
-                <h2>Projects</h2>
+        <h2>Projects</h2>
 
-                <p className="section-description">
-                    Hands-on projects that demonstrate my learning, problem-solving, and technical skills.
-                </p>
+        <p className="section-description">
+          Hands-on projects that demonstrate my learning, problem-solving, and
+          technical skills.
+        </p>
 
-                <div className="projects-grid">
-                    {projects.map((project) => (
-                        <ProjectCard 
-                        key={project.title}
-                        project={project}
-                        />
-                    ))}
-                </div>
-            </div>
-        </section>
-    );
+        <div className="projects-grid">
+          {projects.map((project) => (
+            <ProjectCard key={project.title} project={project} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
