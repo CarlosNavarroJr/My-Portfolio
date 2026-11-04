@@ -14,7 +14,7 @@ The portfolio is designed to provide a clean, accessible experience across deskt
 
 ## Website Preview
 
-![Portfolio Website Screenshot](screenshots/portfolio-preview.png)
+![Portfolio Website Screenshot](./public/screenshots/portfolio-preview.png)
 
 ## Features
 
