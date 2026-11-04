@@ -20,41 +20,41 @@ The portfolio is designed to provide a clean, accessible experience across deskt
 
 Responsive Design: Optimized for desktop, tablet, and mobile screens.
 
-Sticky Navigation: Navigation remains accessible while scrolling.
+- Sticky Navigation: Navigation remains accessible while scrolling.
 
-Hero Section: Introduction with navigation to projects and contact information.
+- Hero Section: Introduction with navigation to projects and contact information.
 
-About Section: Overview of my background, technical interests, and career goals.
+- About Section: Overview of my background, technical interests, and career goals.
 
-Technical Skills: Organized display of technologies and tools.
+- Technical Skills: Organized display of technologies and tools.
 
-Project Showcase: Reusable project cards displaying descriptions, technologies, and development status.
+- Project Showcase: Reusable project cards displaying descriptions, technologies, and development status.
 
-Contact Section: Direct links to professional contact information and profiles.
+- Contact Section: Direct links to professional contact information and profiles.
 
-Smooth Scrolling: Seamless navigation between portfolio sections.
+- Smooth Scrolling: Seamless navigation between portfolio sections.
 
-Reusable Components: Modular React architecture for easier maintenance and expansion.
+- Reusable Components: Modular React architecture for easier maintenance and expansion.
 
 # What I Learned
 
-Building this project helped me gain practical experience with:
+- Building this project helped me gain practical experience with:
 
-Creating and organizing React components.
+- Creating and organizing React components.
 
-Passing data through component props.
+- Passing data through component props.
 
-Rendering lists dynamically with JavaScript.
+- Rendering lists dynamically with JavaScript.
 
-Designing responsive layouts with CSS.
+- Designing responsive layouts with CSS.
 
-Managing source code with Git and GitHub.
+- Managing source code with Git and GitHub.
 
-Troubleshooting Git repository issues.
+- Troubleshooting Git repository issues.
 
-Preparing a React application for production.
+- Preparing a React application for production.
 
-Deploying and maintaining a live website.
+- Deploying and maintaining a live website.
 
 # Author
 
