@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import ticketingImage from "../assets/projects/supportDesk.png";
+import bakeryImage from "../assets/projects/letysPostres.png";
 
 const projects = [
   {
@@ -8,17 +9,19 @@ const projects = [
     description:
       "A web application designed to create, track, and manage IT support tickets through an organized, user-friendly interface.",
     technologies: ["React", "Javascript", "CSS"],
-    githubUrl: "",
+    githubUrl: "https://github.com/CarlosNavarroJr/it-ticketing-system",
     liveUrl: "",
     image: ticketingImage,
   },
   {
-    title: "Project Coming Soon",
+    title: "Lety's Postres Bakery",
     status: "In Progress",
-    description: "Project in progress, stay tunned",
-    technologies: ["React"],
-    githubUrl: "",
+    description:
+      "An E-commerce bakery website built with React, JavaScript, and CSS for a real-world business. Features reusable components, product showcases, custom cake inquiries, and mobile-friendly navigation. Designed to provide a seamless customer experience, with an expanding product catalog.",
+    technologies: ["React", "Javascript", "CSS", "HTML"],
+    githubUrl: "https://github.com/CarlosNavarroJr/Letys-Postres",
     liveUrl: "",
+    image: bakeryImage,
   },
   {
     title: "Project Coming Soon",
